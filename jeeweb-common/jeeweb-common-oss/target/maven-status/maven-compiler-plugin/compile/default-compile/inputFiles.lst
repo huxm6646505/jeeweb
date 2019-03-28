@@ -1,0 +1,15 @@
+D:\inyellijIdea\jeeweb\jeeweb-common\jeeweb-common-oss\src\main\java\cn\jeeweb\common\oss\client\AliyunOSSClient.java
+D:\inyellijIdea\jeeweb\jeeweb-common\jeeweb-common-oss\src\main\java\cn\jeeweb\common\oss\client\LocalClient.java
+D:\inyellijIdea\jeeweb\jeeweb-common\jeeweb-common-oss\src\main\java\cn\jeeweb\common\oss\config\AliyunConfig.java
+D:\inyellijIdea\jeeweb\jeeweb-common\jeeweb-common-oss\src\main\java\cn\jeeweb\common\oss\constant\Constants.java
+D:\inyellijIdea\jeeweb\jeeweb-common\jeeweb-common-oss\src\main\java\cn\jeeweb\common\oss\client\QiniuOSSClient.java
+D:\inyellijIdea\jeeweb\jeeweb-common\jeeweb-common-oss\src\main\java\cn\jeeweb\common\oss\client\IOSSClient.java
+D:\inyellijIdea\jeeweb\jeeweb-common\jeeweb-common-oss\src\main\java\cn\jeeweb\common\oss\exception\OSSException.java
+D:\inyellijIdea\jeeweb\jeeweb-common\jeeweb-common-oss\src\main\java\cn\jeeweb\common\oss\utils\AliyunOSSClientUtil.java
+D:\inyellijIdea\jeeweb\jeeweb-common\jeeweb-common-oss\src\main\java\cn\jeeweb\common\oss\config\OssConfig.java
+D:\inyellijIdea\jeeweb\jeeweb-common\jeeweb-common-oss\src\main\java\cn\jeeweb\common\oss\client\OSSClientFactory.java
+D:\inyellijIdea\jeeweb\jeeweb-common\jeeweb-common-oss\src\main\java\cn\jeeweb\common\oss\exception\InvalidExtensionException.java
+D:\inyellijIdea\jeeweb\jeeweb-common\jeeweb-common-oss\src\main\java\cn\jeeweb\common\oss\client\AbstractOSSClient.java
+D:\inyellijIdea\jeeweb\jeeweb-common\jeeweb-common-oss\src\main\java\cn\jeeweb\common\oss\OSSUploadHelper.java
+D:\inyellijIdea\jeeweb\jeeweb-common\jeeweb-common-oss\src\main\java\cn\jeeweb\common\oss\config\LocalConfig.java
+D:\inyellijIdea\jeeweb\jeeweb-common\jeeweb-common-oss\src\main\java\cn\jeeweb\common\oss\exception\FileNameLengthLimitExceededException.java

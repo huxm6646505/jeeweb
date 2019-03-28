@@ -1,0 +1,33 @@
+<% layout('/layouts/form.html', {title: @MessageUtils.getMessage('项目',''), formId: 'projectinfoForm', bodyClass: 'white-bg', libs: 'jquery-ztree'}){ %>
+<#form:form id="projectinfoForm" modelAttribute="data"  method="post" class="form-horizontal">
+    <#form:hidden path="id"/>
+    <table  class="table table-bordered  table-condensed dataTables-example dataTable no-footer">
+        <tbody>
+        <tr>
+            <td  class="width-15 active text-right">
+                <label><font color="red">*</font>项目名称:</label>
+            </td>
+            <td class="width-35" >
+                <#form:input path="name" class="form-control " datatype="*" nullmsg="请输入项目名称！" htmlEscape="false" />
+                <label class="Validform_checktip"></label>
+            </td>
+            <td  class="width-15 active text-right">
+                <label><font color="red">*</font>项目编码:</label>
+            </td>
+            <td  class="width-35" >
+                <#form:input path="number" class="form-control"  htmlEscape="false"  datatype="*"  nullmsg="请输入项目编码！"/>
+                <label class="Validform_checktip"></label>
+            </td>
+        </tr>
+        <tr>
+            <td  class="width-15 active text-right">
+                <label>地址:</label>
+            </td>
+            <td class="width-35" colspan="3" >
+                <#form:textarea path="adress" htmlEscape="false" rows="1" maxlength="200" class="form-control "/>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+</#form:form>
+<% } %>

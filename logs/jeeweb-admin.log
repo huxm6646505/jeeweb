@@ -1,0 +1,490 @@
+2018-12-24 16:05:13 [ INFO ] [ Version.java :27(<clinit>)]  HV000001: Hibernate Validator 5.1.1.Final
+2018-12-24 16:05:14 [ INFO ] [ StartupInfoLogger.java :50(logStarting)]  Starting WebBootApplication on KGA-A010-0275 with PID 27952 (D:\inyellijIdea\jeeweb\jeeweb-web\jeeweb-admin\target\classes started by huxm11315 in D:\inyellijIdea\jeeweb)
+2018-12-24 16:05:14 [ INFO ] [ SpringApplication.java :659(logStartupProfileInfo)]  No active profile set, falling back to default profiles: default
+2018-12-24 16:05:17 [ WARN ] [ ClassPathMapperScanner.java :166(doScan)]  No MyBatis mapper was found in '[com.baomidou.springboot.mapper*]' package. Please check your configuration.
+2018-12-24 16:05:21 [ INFO ] [ DruidDataSource.java :669(init)]  {dataSource-1} inited
+2018-12-24 16:05:30 [ INFO ] [ PropertySourcedRequestMappingHandlerMapping.java :69(initHandlerMethods)]  Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2018-12-24 16:05:32 [ INFO ] [ StdSchedulerFactory.java :1208(instantiate)]  Using default implementation for ThreadExecutor
+2018-12-24 16:05:32 [ INFO ] [ SchedulerSignalerImpl.java :61(<init>)]  Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2018-12-24 16:05:32 [ INFO ] [ QuartzScheduler.java :229(<init>)]  Quartz Scheduler v.2.3.0 created.
+2018-12-24 16:05:32 [ INFO ] [ RAMJobStore.java :155(initialize)]  RAMJobStore initialized.
+2018-12-24 16:05:32 [ INFO ] [ QuartzScheduler.java :294(initialize)]  Scheduler meta-data: Quartz Scheduler (v2.3.0) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2018-12-24 16:05:32 [ INFO ] [ StdSchedulerFactory.java :1362(instantiate)]  Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2018-12-24 16:05:32 [ INFO ] [ StdSchedulerFactory.java :1366(instantiate)]  Quartz scheduler version: 2.3.0
+2018-12-24 16:05:32 [ INFO ] [ QuartzScheduler.java :2287(setJobFactory)]  JobFactory set to: org.springframework.boot.autoconfigure.quartz.AutowireCapableBeanJobFactory@41939340
+2018-12-24 16:05:32 [ INFO ] [ DocumentationPluginsBootstrapper.java :151(start)]  Context refreshed
+2018-12-24 16:05:32 [ INFO ] [ DocumentationPluginsBootstrapper.java :154(start)]  Found 1 custom documentation plugin(s)
+2018-12-24 16:05:33 [ INFO ] [ ApiListingReferenceScanner.java :41(scan)]  Scanning for api listing references
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: listUsingGET_1
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: ajaxListUsingGET_1
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: ajaxListUsingPOST_1
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: batchDeleteUsingPOST_1
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: deleteUsingPOST_1
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: listUsingGET_2
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: addUsingPOST_1
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: addUsingGET_1
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: ajaxListUsingGET_2
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: ajaxListUsingPOST_2
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: batchDeleteUsingPOST_2
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: deleteUsingPOST_2
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: listUsingGET_3
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: updateUsingGET_1
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: updateUsingPOST_1
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: addUsingPOST_2
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: addUsingGET_2
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: ajaxListUsingGET_3
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: ajaxListUsingPOST_3
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: deleteUsingPOST_3
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: listUsingGET_4
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: updateUsingGET_2
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: updateUsingPOST_2
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: ajaxListUsingGET_4
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: ajaxListUsingPOST_4
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: batchDeleteUsingPOST_3
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: deleteUsingPOST_4
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: listUsingGET_5
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: addUsingPOST_3
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: addUsingGET_3
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: ajaxListUsingGET_5
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: ajaxListUsingPOST_5
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: batchDeleteUsingPOST_4
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: deleteUsingPOST_5
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: listUsingGET_6
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: updateUsingGET_3
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: updateUsingPOST_3
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: listUsingGET_7
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: indexUsingGET_1
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: indexUsingGET_2
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: jqueryValidationEngineValidateUsingGET_1
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: ajaxListUsingGET_6
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: ajaxListUsingPOST_6
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: batchDeleteUsingPOST_5
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: deleteUsingPOST_6
+2018-12-24 16:05:33 [ WARN ] [ ParameterDataTypeReader.java :92(apply)]  Trying to infer dataType org.springframework.ui.ModelMap
+2018-12-24 16:05:33 [ WARN ] [ ParameterDataTypeReader.java :92(apply)]  Trying to infer dataType org.springframework.ui.ModelMap
+2018-12-24 16:05:33 [ WARN ] [ ParameterDataTypeReader.java :92(apply)]  Trying to infer dataType org.springframework.ui.ModelMap
+2018-12-24 16:05:33 [ WARN ] [ ParameterDataTypeReader.java :92(apply)]  Trying to infer dataType org.springframework.ui.ModelMap
+2018-12-24 16:05:33 [ WARN ] [ ParameterDataTypeReader.java :92(apply)]  Trying to infer dataType org.springframework.ui.ModelMap
+2018-12-24 16:05:33 [ WARN ] [ ParameterDataTypeReader.java :92(apply)]  Trying to infer dataType org.springframework.ui.ModelMap
+2018-12-24 16:05:33 [ WARN ] [ ParameterDataTypeReader.java :92(apply)]  Trying to infer dataType org.springframework.ui.ModelMap
+2018-12-24 16:05:33 [ WARN ] [ ParameterDataTypeReader.java :92(apply)]  Trying to infer dataType org.springframework.ui.ModelMap
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: listUsingGET_8
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: addUsingPOST_4
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: addUsingGET_4
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: ajaxListUsingGET_7
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: ajaxListUsingPOST_7
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: batchDeleteUsingPOST_6
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: deleteUsingPOST_7
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: listUsingGET_9
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: updateUsingPOST_4
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: updateUsingGET_4
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: ajaxListUsingGET_8
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: ajaxListUsingPOST_8
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: batchDeleteUsingGET_1
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: batchDeleteUsingPOST_7
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: deleteUsingPOST_8
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: doSaveUsingPOST_1
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: listUsingGET_10
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: updateUsingPOST_5
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: ajaxListUsingGET_9
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: ajaxListUsingPOST_9
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: batchDeleteUsingPOST_8
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: deleteUsingPOST_9
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: listUsingGET_11
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: addUsingGET_5
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: addUsingPOST_5
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: ajaxListUsingGET_10
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: ajaxListUsingPOST_10
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: ajaxTreeListUsingGET_1
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: ajaxTreeListUsingHEAD_1
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: ajaxTreeListUsingPOST_1
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: ajaxTreeListUsingPUT_1
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: ajaxTreeListUsingPATCH_1
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: ajaxTreeListUsingDELETE_1
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: ajaxTreeListUsingOPTIONS_1
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: ajaxTreeListUsingTRACE_1
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: batchDeleteUsingPOST_9
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: bootstrapTreeDataUsingGET_1
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: bootstrapTreeDataUsingHEAD_1
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: bootstrapTreeDataUsingPOST_1
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: bootstrapTreeDataUsingPUT_1
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: bootstrapTreeDataUsingPATCH_1
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: bootstrapTreeDataUsingDELETE_1
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: bootstrapTreeDataUsingOPTIONS_1
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: bootstrapTreeDataUsingTRACE_1
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: deleteUsingPOST_10
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: listUsingGET_12
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: treeDataUsingGET_1
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: treeDataUsingHEAD_1
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: treeDataUsingPOST_1
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: treeDataUsingPUT_1
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: treeDataUsingPATCH_1
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: treeDataUsingDELETE_1
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: treeDataUsingOPTIONS_1
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: treeDataUsingTRACE_1
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: updateUsingPOST_6
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: updateUsingGET_5
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: uploadUsingPOST_1
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: uploadUsingPOST_2
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: addUsingGET_6
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: addUsingPOST_6
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: ajaxListUsingGET_11
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: ajaxListUsingPOST_11
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: batchDeleteUsingPOST_10
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: deleteUsingPOST_11
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: listUsingGET_13
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: updateUsingPOST_7
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: updateUsingGET_6
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: addUsingGET_7
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: addUsingPOST_7
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: ajaxListUsingGET_12
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: ajaxListUsingPOST_12
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: batchDeleteUsingPOST_11
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: deleteUsingPOST_12
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: listUsingGET_14
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: updateUsingPOST_8
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: updateUsingGET_7
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: addUsingPOST_8
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: addUsingGET_8
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: ajaxListUsingGET_13
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: ajaxListUsingPOST_13
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: batchDeleteUsingPOST_12
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: deleteUsingPOST_13
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: listUsingGET_15
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: updateUsingGET_8
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: updateUsingPOST_9
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: addUsingPOST_9
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: addUsingGET_9
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: ajaxListUsingGET_14
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: ajaxListUsingPOST_14
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: batchDeleteUsingPOST_13
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: deleteUsingPOST_14
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: listUsingGET_16
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: updateUsingPOST_10
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: updateUsingGET_9
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: ajaxListUsingGET_15
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: ajaxListUsingPOST_15
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: batchDeleteUsingPOST_14
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: deleteUsingPOST_15
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: listUsingGET_17
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: ajaxListUsingGET_16
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: ajaxListUsingPOST_16
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: batchDeleteUsingPOST_15
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: deleteUsingPOST_16
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: listUsingGET_18
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: addUsingPOST_10
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: addUsingGET_10
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: ajaxListUsingGET_17
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: ajaxListUsingPOST_17
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: batchDeleteUsingPOST_16
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: deleteUsingPOST_17
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: listUsingGET_19
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: updateUsingGET_10
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: updateUsingPOST_11
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: indexUsingGET_3
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: addUsingPOST_11
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: addUsingGET_11
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: ajaxListUsingGET_18
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: ajaxListUsingPOST_18
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: batchDeleteUsingPOST_17
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: deleteUsingPOST_18
+2018-12-24 16:05:33 [ WARN ] [ ParameterDataTypeReader.java :92(apply)]  Trying to infer dataType org.springframework.ui.ModelMap
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: exportUsingGET_1
+2018-12-24 16:05:33 [ WARN ] [ ParameterDataTypeReader.java :92(apply)]  Trying to infer dataType org.springframework.ui.ModelMap
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: exportUsingHEAD_1
+2018-12-24 16:05:33 [ WARN ] [ ParameterDataTypeReader.java :92(apply)]  Trying to infer dataType org.springframework.ui.ModelMap
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: exportUsingPOST_1
+2018-12-24 16:05:33 [ WARN ] [ ParameterDataTypeReader.java :92(apply)]  Trying to infer dataType org.springframework.ui.ModelMap
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: exportUsingPUT_1
+2018-12-24 16:05:33 [ WARN ] [ ParameterDataTypeReader.java :92(apply)]  Trying to infer dataType org.springframework.ui.ModelMap
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: exportUsingPATCH_1
+2018-12-24 16:05:33 [ WARN ] [ ParameterDataTypeReader.java :92(apply)]  Trying to infer dataType org.springframework.ui.ModelMap
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: exportUsingDELETE_1
+2018-12-24 16:05:33 [ WARN ] [ ParameterDataTypeReader.java :92(apply)]  Trying to infer dataType org.springframework.ui.ModelMap
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: exportUsingOPTIONS_1
+2018-12-24 16:05:33 [ WARN ] [ ParameterDataTypeReader.java :92(apply)]  Trying to infer dataType org.springframework.ui.ModelMap
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: exportUsingTRACE_1
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: listUsingGET_20
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: updateUsingGET_11
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: updateUsingPOST_12
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: ajaxListUsingGET_19
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: ajaxListUsingPOST_19
+2018-12-24 16:05:33 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: listUsingGET_21
+2018-12-24 16:05:33 [ INFO ] [ QuartzScheduler.java :547(start)]  Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2018-12-24 16:05:34 [ INFO ] [ StartupInfoLogger.java :59(logStarted)]  Started WebBootApplication in 20.788 seconds (JVM running for 23.414)
+2018-12-24 16:06:47 [ INFO ] [ AbstractValidatingSessionManager.java :233(enableSessionValidation)]  Enabling session validation scheduler...
+2018-12-24 16:08:45 [ WARN ] [ DispatcherServlet.java :1205(noHandlerFound)]  No mapping found for HTTP request with URI [/admin/roomsys/picture/FYZS.jpg] in DispatcherServlet with name 'dispatcherServlet'
+2018-12-24 16:08:45 [ WARN ] [ AbstractHandlerExceptionResolver.java :193(logException)]  Resolved exception caused by Handler execution: org.springframework.web.servlet.NoHandlerFoundException: No handler found for GET /admin/roomsys/picture/FYZS.jpg
+2018-12-24 16:10:52 [ WARN ] [ DispatcherServlet.java :1205(noHandlerFound)]  No mapping found for HTTP request with URI [/admin/roomsys/projectinfo/edit.html] in DispatcherServlet with name 'dispatcherServlet'
+2018-12-24 16:10:52 [ WARN ] [ AbstractHandlerExceptionResolver.java :193(logException)]  Resolved exception caused by Handler execution: org.springframework.web.servlet.NoHandlerFoundException: No handler found for GET /admin/roomsys/projectinfo/edit.html
+2018-12-24 16:11:03 [ WARN ] [ DispatcherServlet.java :1205(noHandlerFound)]  No mapping found for HTTP request with URI [/views/roomsys/projectinfo/edit.html] in DispatcherServlet with name 'dispatcherServlet'
+2018-12-24 16:11:03 [ WARN ] [ AbstractHandlerExceptionResolver.java :193(logException)]  Resolved exception caused by Handler execution: org.springframework.web.servlet.NoHandlerFoundException: No handler found for GET /views/roomsys/projectinfo/edit.html
+2018-12-24 16:11:18 [ WARN ] [ DispatcherServlet.java :1205(noHandlerFound)]  No mapping found for HTTP request with URI [/views/modules/roomsys/projectinfo/edit.html] in DispatcherServlet with name 'dispatcherServlet'
+2018-12-24 16:11:18 [ WARN ] [ AbstractHandlerExceptionResolver.java :193(logException)]  Resolved exception caused by Handler execution: org.springframework.web.servlet.NoHandlerFoundException: No handler found for GET /views/modules/roomsys/projectinfo/edit.html
+2018-12-24 16:11:53 [ WARN ] [ DispatcherServlet.java :1205(noHandlerFound)]  No mapping found for HTTP request with URI [/admin/views/modules/roomsys/projectinfo/edit.html] in DispatcherServlet with name 'dispatcherServlet'
+2018-12-24 16:11:53 [ WARN ] [ AbstractHandlerExceptionResolver.java :193(logException)]  Resolved exception caused by Handler execution: org.springframework.web.servlet.NoHandlerFoundException: No handler found for GET /admin/views/modules/roomsys/projectinfo/edit.html
+2018-12-24 16:12:40 [ WARN ] [ DispatcherServlet.java :1205(noHandlerFound)]  No mapping found for HTTP request with URI [/admin/views/modules/roomsys/picture/FYZS.jps] in DispatcherServlet with name 'dispatcherServlet'
+2018-12-24 16:12:40 [ WARN ] [ AbstractHandlerExceptionResolver.java :193(logException)]  Resolved exception caused by Handler execution: org.springframework.web.servlet.NoHandlerFoundException: No handler found for GET /admin/views/modules/roomsys/picture/FYZS.jps
+2018-12-24 16:12:43 [ WARN ] [ DispatcherServlet.java :1205(noHandlerFound)]  No mapping found for HTTP request with URI [/admin/views/modules/roomsys/picture/FYZS.jpg] in DispatcherServlet with name 'dispatcherServlet'
+2018-12-24 16:12:43 [ WARN ] [ AbstractHandlerExceptionResolver.java :193(logException)]  Resolved exception caused by Handler execution: org.springframework.web.servlet.NoHandlerFoundException: No handler found for GET /admin/views/modules/roomsys/picture/FYZS.jpg
+2018-12-24 16:15:33 [ INFO ] [ Version.java :27(<clinit>)]  HV000001: Hibernate Validator 5.1.1.Final
+2018-12-24 16:15:34 [ INFO ] [ StartupInfoLogger.java :50(logStarting)]  Starting WebBootApplication on KGA-A010-0275 with PID 28236 (D:\inyellijIdea\jeeweb\jeeweb-web\jeeweb-admin\target\classes started by huxm11315 in D:\inyellijIdea\jeeweb)
+2018-12-24 16:15:34 [ INFO ] [ SpringApplication.java :659(logStartupProfileInfo)]  No active profile set, falling back to default profiles: default
+2018-12-24 16:15:37 [ WARN ] [ ClassPathMapperScanner.java :166(doScan)]  No MyBatis mapper was found in '[com.baomidou.springboot.mapper*]' package. Please check your configuration.
+2018-12-24 16:15:39 [ INFO ] [ DruidDataSource.java :669(init)]  {dataSource-1} inited
+2018-12-24 16:15:45 [ INFO ] [ PropertySourcedRequestMappingHandlerMapping.java :69(initHandlerMethods)]  Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2018-12-24 16:15:46 [ INFO ] [ StdSchedulerFactory.java :1208(instantiate)]  Using default implementation for ThreadExecutor
+2018-12-24 16:15:46 [ INFO ] [ SchedulerSignalerImpl.java :61(<init>)]  Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2018-12-24 16:15:46 [ INFO ] [ QuartzScheduler.java :229(<init>)]  Quartz Scheduler v.2.3.0 created.
+2018-12-24 16:15:46 [ INFO ] [ RAMJobStore.java :155(initialize)]  RAMJobStore initialized.
+2018-12-24 16:15:46 [ INFO ] [ QuartzScheduler.java :294(initialize)]  Scheduler meta-data: Quartz Scheduler (v2.3.0) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2018-12-24 16:15:46 [ INFO ] [ StdSchedulerFactory.java :1362(instantiate)]  Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2018-12-24 16:15:46 [ INFO ] [ StdSchedulerFactory.java :1366(instantiate)]  Quartz scheduler version: 2.3.0
+2018-12-24 16:15:46 [ INFO ] [ QuartzScheduler.java :2287(setJobFactory)]  JobFactory set to: org.springframework.boot.autoconfigure.quartz.AutowireCapableBeanJobFactory@798e2a2f
+2018-12-24 16:15:47 [ INFO ] [ DocumentationPluginsBootstrapper.java :151(start)]  Context refreshed
+2018-12-24 16:15:47 [ INFO ] [ DocumentationPluginsBootstrapper.java :154(start)]  Found 1 custom documentation plugin(s)
+2018-12-24 16:15:47 [ INFO ] [ ApiListingReferenceScanner.java :41(scan)]  Scanning for api listing references
+2018-12-24 16:15:47 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: listUsingGET_1
+2018-12-24 16:15:47 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: ajaxListUsingGET_1
+2018-12-24 16:15:47 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: ajaxListUsingPOST_1
+2018-12-24 16:15:47 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: batchDeleteUsingPOST_1
+2018-12-24 16:15:47 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: deleteUsingPOST_1
+2018-12-24 16:15:47 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: listUsingGET_2
+2018-12-24 16:15:47 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: addUsingPOST_1
+2018-12-24 16:15:47 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: addUsingGET_1
+2018-12-24 16:15:47 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: ajaxListUsingGET_2
+2018-12-24 16:15:47 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: ajaxListUsingPOST_2
+2018-12-24 16:15:47 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: batchDeleteUsingPOST_2
+2018-12-24 16:15:47 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: deleteUsingPOST_2
+2018-12-24 16:15:47 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: listUsingGET_3
+2018-12-24 16:15:47 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: updateUsingGET_1
+2018-12-24 16:15:47 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: updateUsingPOST_1
+2018-12-24 16:15:47 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: addUsingPOST_2
+2018-12-24 16:15:47 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: addUsingGET_2
+2018-12-24 16:15:47 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: ajaxListUsingGET_3
+2018-12-24 16:15:47 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: ajaxListUsingPOST_3
+2018-12-24 16:15:47 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: deleteUsingPOST_3
+2018-12-24 16:15:47 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: listUsingGET_4
+2018-12-24 16:15:47 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: updateUsingGET_2
+2018-12-24 16:15:47 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: updateUsingPOST_2
+2018-12-24 16:15:47 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: ajaxListUsingGET_4
+2018-12-24 16:15:47 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: ajaxListUsingPOST_4
+2018-12-24 16:15:47 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: batchDeleteUsingPOST_3
+2018-12-24 16:15:47 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: deleteUsingPOST_4
+2018-12-24 16:15:47 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: listUsingGET_5
+2018-12-24 16:15:47 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: addUsingPOST_3
+2018-12-24 16:15:47 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: addUsingGET_3
+2018-12-24 16:15:47 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: ajaxListUsingGET_5
+2018-12-24 16:15:47 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: ajaxListUsingPOST_5
+2018-12-24 16:15:47 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: batchDeleteUsingPOST_4
+2018-12-24 16:15:47 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: deleteUsingPOST_5
+2018-12-24 16:15:47 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: listUsingGET_6
+2018-12-24 16:15:47 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: updateUsingGET_3
+2018-12-24 16:15:47 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: updateUsingPOST_3
+2018-12-24 16:15:47 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: listUsingGET_7
+2018-12-24 16:15:47 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: indexUsingGET_1
+2018-12-24 16:15:47 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: indexUsingGET_2
+2018-12-24 16:15:47 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: jqueryValidationEngineValidateUsingGET_1
+2018-12-24 16:15:47 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: ajaxListUsingGET_6
+2018-12-24 16:15:47 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: ajaxListUsingPOST_6
+2018-12-24 16:15:47 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: batchDeleteUsingPOST_5
+2018-12-24 16:15:47 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: deleteUsingPOST_6
+2018-12-24 16:15:47 [ WARN ] [ ParameterDataTypeReader.java :92(apply)]  Trying to infer dataType org.springframework.ui.ModelMap
+2018-12-24 16:15:47 [ WARN ] [ ParameterDataTypeReader.java :92(apply)]  Trying to infer dataType org.springframework.ui.ModelMap
+2018-12-24 16:15:47 [ WARN ] [ ParameterDataTypeReader.java :92(apply)]  Trying to infer dataType org.springframework.ui.ModelMap
+2018-12-24 16:15:47 [ WARN ] [ ParameterDataTypeReader.java :92(apply)]  Trying to infer dataType org.springframework.ui.ModelMap
+2018-12-24 16:15:47 [ WARN ] [ ParameterDataTypeReader.java :92(apply)]  Trying to infer dataType org.springframework.ui.ModelMap
+2018-12-24 16:15:47 [ WARN ] [ ParameterDataTypeReader.java :92(apply)]  Trying to infer dataType org.springframework.ui.ModelMap
+2018-12-24 16:15:47 [ WARN ] [ ParameterDataTypeReader.java :92(apply)]  Trying to infer dataType org.springframework.ui.ModelMap
+2018-12-24 16:15:47 [ WARN ] [ ParameterDataTypeReader.java :92(apply)]  Trying to infer dataType org.springframework.ui.ModelMap
+2018-12-24 16:15:47 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: listUsingGET_8
+2018-12-24 16:15:47 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: addUsingPOST_4
+2018-12-24 16:15:47 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: addUsingGET_4
+2018-12-24 16:15:47 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: ajaxListUsingGET_7
+2018-12-24 16:15:47 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: ajaxListUsingPOST_7
+2018-12-24 16:15:47 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: batchDeleteUsingPOST_6
+2018-12-24 16:15:48 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: deleteUsingPOST_7
+2018-12-24 16:15:48 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: listUsingGET_9
+2018-12-24 16:15:48 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: updateUsingPOST_4
+2018-12-24 16:15:48 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: updateUsingGET_4
+2018-12-24 16:15:48 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: ajaxListUsingGET_8
+2018-12-24 16:15:48 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: ajaxListUsingPOST_8
+2018-12-24 16:15:48 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: batchDeleteUsingGET_1
+2018-12-24 16:15:48 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: batchDeleteUsingPOST_7
+2018-12-24 16:15:48 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: deleteUsingPOST_8
+2018-12-24 16:15:48 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: doSaveUsingPOST_1
+2018-12-24 16:15:48 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: listUsingGET_10
+2018-12-24 16:15:48 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: updateUsingPOST_5
+2018-12-24 16:15:48 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: ajaxListUsingGET_9
+2018-12-24 16:15:48 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: ajaxListUsingPOST_9
+2018-12-24 16:15:48 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: batchDeleteUsingPOST_8
+2018-12-24 16:15:48 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: deleteUsingPOST_9
+2018-12-24 16:15:48 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: listUsingGET_11
+2018-12-24 16:15:48 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: addUsingGET_5
+2018-12-24 16:15:48 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: addUsingPOST_5
+2018-12-24 16:15:48 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: ajaxListUsingGET_10
+2018-12-24 16:15:48 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: ajaxListUsingPOST_10
+2018-12-24 16:15:48 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: ajaxTreeListUsingGET_1
+2018-12-24 16:15:48 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: ajaxTreeListUsingHEAD_1
+2018-12-24 16:15:48 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: ajaxTreeListUsingPOST_1
+2018-12-24 16:15:48 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: ajaxTreeListUsingPUT_1
+2018-12-24 16:15:48 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: ajaxTreeListUsingPATCH_1
+2018-12-24 16:15:48 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: ajaxTreeListUsingDELETE_1
+2018-12-24 16:15:48 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: ajaxTreeListUsingOPTIONS_1
+2018-12-24 16:15:48 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: ajaxTreeListUsingTRACE_1
+2018-12-24 16:15:48 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: batchDeleteUsingPOST_9
+2018-12-24 16:15:48 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: bootstrapTreeDataUsingGET_1
+2018-12-24 16:15:48 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: bootstrapTreeDataUsingHEAD_1
+2018-12-24 16:15:48 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: bootstrapTreeDataUsingPOST_1
+2018-12-24 16:15:48 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: bootstrapTreeDataUsingPUT_1
+2018-12-24 16:15:48 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: bootstrapTreeDataUsingPATCH_1
+2018-12-24 16:15:48 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: bootstrapTreeDataUsingDELETE_1
+2018-12-24 16:15:48 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: bootstrapTreeDataUsingOPTIONS_1
+2018-12-24 16:15:48 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: bootstrapTreeDataUsingTRACE_1
+2018-12-24 16:15:48 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: deleteUsingPOST_10
+2018-12-24 16:15:48 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: listUsingGET_12
+2018-12-24 16:15:48 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: treeDataUsingGET_1
+2018-12-24 16:15:48 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: treeDataUsingHEAD_1
+2018-12-24 16:15:48 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: treeDataUsingPOST_1
+2018-12-24 16:15:48 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: treeDataUsingPUT_1
+2018-12-24 16:15:48 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: treeDataUsingPATCH_1
+2018-12-24 16:15:48 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: treeDataUsingDELETE_1
+2018-12-24 16:15:48 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: treeDataUsingOPTIONS_1
+2018-12-24 16:15:48 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: treeDataUsingTRACE_1
+2018-12-24 16:15:48 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: updateUsingPOST_6
+2018-12-24 16:15:48 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: updateUsingGET_5
+2018-12-24 16:15:48 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: uploadUsingPOST_1
+2018-12-24 16:15:48 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: uploadUsingPOST_2
+2018-12-24 16:15:48 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: addUsingGET_6
+2018-12-24 16:15:48 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: addUsingPOST_6
+2018-12-24 16:15:48 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: ajaxListUsingGET_11
+2018-12-24 16:15:48 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: ajaxListUsingPOST_11
+2018-12-24 16:15:48 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: batchDeleteUsingPOST_10
+2018-12-24 16:15:48 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: deleteUsingPOST_11
+2018-12-24 16:15:48 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: listUsingGET_13
+2018-12-24 16:15:48 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: updateUsingPOST_7
+2018-12-24 16:15:48 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: updateUsingGET_6
+2018-12-24 16:15:48 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: addUsingGET_7
+2018-12-24 16:15:48 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: addUsingPOST_7
+2018-12-24 16:15:48 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: ajaxListUsingGET_12
+2018-12-24 16:15:48 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: ajaxListUsingPOST_12
+2018-12-24 16:15:48 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: batchDeleteUsingPOST_11
+2018-12-24 16:15:48 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: deleteUsingPOST_12
+2018-12-24 16:15:48 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: listUsingGET_14
+2018-12-24 16:15:48 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: updateUsingPOST_8
+2018-12-24 16:15:48 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: updateUsingGET_7
+2018-12-24 16:15:48 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: addUsingPOST_8
+2018-12-24 16:15:48 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: addUsingGET_8
+2018-12-24 16:15:48 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: ajaxListUsingGET_13
+2018-12-24 16:15:48 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: ajaxListUsingPOST_13
+2018-12-24 16:15:48 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: batchDeleteUsingPOST_12
+2018-12-24 16:15:48 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: deleteUsingPOST_13
+2018-12-24 16:15:48 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: listUsingGET_15
+2018-12-24 16:15:48 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: updateUsingGET_8
+2018-12-24 16:15:48 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: updateUsingPOST_9
+2018-12-24 16:15:48 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: addUsingPOST_9
+2018-12-24 16:15:48 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: addUsingGET_9
+2018-12-24 16:15:48 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: ajaxListUsingGET_14
+2018-12-24 16:15:48 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: ajaxListUsingPOST_14
+2018-12-24 16:15:48 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: batchDeleteUsingPOST_13
+2018-12-24 16:15:48 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: deleteUsingPOST_14
+2018-12-24 16:15:48 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: listUsingGET_16
+2018-12-24 16:15:48 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: updateUsingPOST_10
+2018-12-24 16:15:48 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: updateUsingGET_9
+2018-12-24 16:15:48 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: ajaxListUsingGET_15
+2018-12-24 16:15:48 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: ajaxListUsingPOST_15
+2018-12-24 16:15:48 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: batchDeleteUsingPOST_14
+2018-12-24 16:15:48 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: deleteUsingPOST_15
+2018-12-24 16:15:48 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: listUsingGET_17
+2018-12-24 16:15:48 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: ajaxListUsingGET_16
+2018-12-24 16:15:48 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: ajaxListUsingPOST_16
+2018-12-24 16:15:48 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: batchDeleteUsingPOST_15
+2018-12-24 16:15:48 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: deleteUsingPOST_16
+2018-12-24 16:15:48 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: listUsingGET_18
+2018-12-24 16:15:48 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: addUsingPOST_10
+2018-12-24 16:15:48 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: addUsingGET_10
+2018-12-24 16:15:48 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: ajaxListUsingGET_17
+2018-12-24 16:15:48 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: ajaxListUsingPOST_17
+2018-12-24 16:15:48 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: batchDeleteUsingPOST_16
+2018-12-24 16:15:48 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: deleteUsingPOST_17
+2018-12-24 16:15:48 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: listUsingGET_19
+2018-12-24 16:15:48 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: updateUsingGET_10
+2018-12-24 16:15:48 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: updateUsingPOST_11
+2018-12-24 16:15:48 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: indexUsingGET_3
+2018-12-24 16:15:48 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: addUsingPOST_11
+2018-12-24 16:15:48 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: addUsingGET_11
+2018-12-24 16:15:48 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: ajaxListUsingGET_18
+2018-12-24 16:15:48 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: ajaxListUsingPOST_18
+2018-12-24 16:15:48 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: batchDeleteUsingPOST_17
+2018-12-24 16:15:48 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: deleteUsingPOST_18
+2018-12-24 16:15:48 [ WARN ] [ ParameterDataTypeReader.java :92(apply)]  Trying to infer dataType org.springframework.ui.ModelMap
+2018-12-24 16:15:48 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: exportUsingGET_1
+2018-12-24 16:15:48 [ WARN ] [ ParameterDataTypeReader.java :92(apply)]  Trying to infer dataType org.springframework.ui.ModelMap
+2018-12-24 16:15:48 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: exportUsingHEAD_1
+2018-12-24 16:15:48 [ WARN ] [ ParameterDataTypeReader.java :92(apply)]  Trying to infer dataType org.springframework.ui.ModelMap
+2018-12-24 16:15:48 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: exportUsingPOST_1
+2018-12-24 16:15:48 [ WARN ] [ ParameterDataTypeReader.java :92(apply)]  Trying to infer dataType org.springframework.ui.ModelMap
+2018-12-24 16:15:48 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: exportUsingPUT_1
+2018-12-24 16:15:48 [ WARN ] [ ParameterDataTypeReader.java :92(apply)]  Trying to infer dataType org.springframework.ui.ModelMap
+2018-12-24 16:15:48 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: exportUsingPATCH_1
+2018-12-24 16:15:48 [ WARN ] [ ParameterDataTypeReader.java :92(apply)]  Trying to infer dataType org.springframework.ui.ModelMap
+2018-12-24 16:15:48 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: exportUsingDELETE_1
+2018-12-24 16:15:48 [ WARN ] [ ParameterDataTypeReader.java :92(apply)]  Trying to infer dataType org.springframework.ui.ModelMap
+2018-12-24 16:15:48 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: exportUsingOPTIONS_1
+2018-12-24 16:15:48 [ WARN ] [ ParameterDataTypeReader.java :92(apply)]  Trying to infer dataType org.springframework.ui.ModelMap
+2018-12-24 16:15:48 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: exportUsingTRACE_1
+2018-12-24 16:15:48 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: listUsingGET_20
+2018-12-24 16:15:48 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: updateUsingGET_11
+2018-12-24 16:15:48 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: updateUsingPOST_12
+2018-12-24 16:15:48 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: ajaxListUsingGET_19
+2018-12-24 16:15:48 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: ajaxListUsingPOST_19
+2018-12-24 16:15:48 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: listUsingGET_21
+2018-12-24 16:15:48 [ INFO ] [ QuartzScheduler.java :547(start)]  Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2018-12-24 16:15:48 [ INFO ] [ StartupInfoLogger.java :59(logStarted)]  Started WebBootApplication in 14.754 seconds (JVM running for 16.113)
+2018-12-24 16:15:51 [ INFO ] [ AbstractValidatingSessionManager.java :233(enableSessionValidation)]  Enabling session validation scheduler...
+2018-12-24 16:15:51 [ WARN ] [ DispatcherServlet.java :1205(noHandlerFound)]  No mapping found for HTTP request with URI [/picture/FYZS.jpg] in DispatcherServlet with name 'dispatcherServlet'
+2018-12-24 16:15:51 [ WARN ] [ AbstractHandlerExceptionResolver.java :193(logException)]  Resolved exception caused by Handler execution: org.springframework.web.servlet.NoHandlerFoundException: No handler found for GET /picture/FYZS.jpg
+2018-12-24 16:15:53 [ WARN ] [ DispatcherServlet.java :1205(noHandlerFound)]  No mapping found for HTTP request with URI [/picture/FYZS.jpg] in DispatcherServlet with name 'dispatcherServlet'
+2018-12-24 16:15:53 [ WARN ] [ AbstractHandlerExceptionResolver.java :193(logException)]  Resolved exception caused by Handler execution: org.springframework.web.servlet.NoHandlerFoundException: No handler found for GET /picture/FYZS.jpg
+2018-12-24 16:15:55 [ WARN ] [ DispatcherServlet.java :1205(noHandlerFound)]  No mapping found for HTTP request with URI [/picture/FYZS.jpg] in DispatcherServlet with name 'dispatcherServlet'
+2018-12-24 16:15:55 [ WARN ] [ AbstractHandlerExceptionResolver.java :193(logException)]  Resolved exception caused by Handler execution: org.springframework.web.servlet.NoHandlerFoundException: No handler found for GET /picture/FYZS.jpg
+2018-12-24 16:21:33 [ INFO ] [ StartupInfoLogger.java :50(logStarting)]  Starting WebBootApplication on KGA-A010-0275 with PID 1908 (D:\inyellijIdea\jeeweb\jeeweb-web\jeeweb-admin\target\classes started by huxm11315 in D:\inyellijIdea\jeeweb)
+2018-12-24 16:21:33 [ INFO ] [ SpringApplication.java :659(logStartupProfileInfo)]  No active profile set, falling back to default profiles: default
+2018-12-24 16:21:34 [ WARN ] [ ClassPathMapperScanner.java :166(doScan)]  No MyBatis mapper was found in '[com.baomidou.springboot.mapper*]' package. Please check your configuration.
+2018-12-24 16:21:36 [ INFO ] [ DruidDataSource.java :669(init)]  {dataSource-1} inited
+2018-12-24 16:21:42 [ INFO ] [ PropertySourcedRequestMappingHandlerMapping.java :69(initHandlerMethods)]  Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2018-12-24 16:21:45 [ INFO ] [ StartupInfoLogger.java :59(logStarted)]  Started WebBootApplication in 13.558 seconds (JVM running for 14.933)
+2018-12-24 16:22:10 [ WARN ] [ DispatcherServlet.java :1205(noHandlerFound)]  No mapping found for HTTP request with URI [/picture/FYZS.jpg] in DispatcherServlet with name 'dispatcherServlet'
+2018-12-24 16:22:10 [ WARN ] [ AbstractHandlerExceptionResolver.java :193(logException)]  Resolved exception caused by Handler execution: org.springframework.web.servlet.NoHandlerFoundException: No handler found for GET /picture/FYZS.jpg
+2018-12-24 16:22:28 [ WARN ] [ DispatcherServlet.java :1205(noHandlerFound)]  No mapping found for HTTP request with URI [/picture/FYZS.jpg] in DispatcherServlet with name 'dispatcherServlet'
+2018-12-24 16:22:28 [ WARN ] [ AbstractHandlerExceptionResolver.java :193(logException)]  Resolved exception caused by Handler execution: org.springframework.web.servlet.NoHandlerFoundException: No handler found for GET /picture/FYZS.jpg
+2018-12-24 16:23:48 [ WARN ] [ DispatcherServlet.java :1205(noHandlerFound)]  No mapping found for HTTP request with URI [/picture/FYZS.jpg] in DispatcherServlet with name 'dispatcherServlet'
+2018-12-24 16:23:48 [ WARN ] [ AbstractHandlerExceptionResolver.java :193(logException)]  Resolved exception caused by Handler execution: org.springframework.web.servlet.NoHandlerFoundException: No handler found for GET /picture/FYZS.jpg
+2018-12-24 16:35:52 [ INFO ] [ StartupInfoLogger.java :50(logStarting)]  Starting WebBootApplication on KGA-A010-0275 with PID 5088 (D:\inyellijIdea\jeeweb\jeeweb-web\jeeweb-admin\target\classes started by huxm11315 in D:\inyellijIdea\jeeweb)
+2018-12-24 16:35:52 [ INFO ] [ SpringApplication.java :659(logStartupProfileInfo)]  No active profile set, falling back to default profiles: default
+2018-12-24 16:35:54 [ WARN ] [ ClassPathMapperScanner.java :166(doScan)]  No MyBatis mapper was found in '[com.baomidou.springboot.mapper*]' package. Please check your configuration.
+2018-12-24 16:35:55 [ INFO ] [ DruidDataSource.java :669(init)]  {dataSource-1} inited
+2018-12-24 16:36:02 [ INFO ] [ PropertySourcedRequestMappingHandlerMapping.java :69(initHandlerMethods)]  Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2018-12-24 16:36:05 [ INFO ] [ StartupInfoLogger.java :59(logStarted)]  Started WebBootApplication in 13.631 seconds (JVM running for 14.942)
+2018-12-24 16:37:07 [ WARN ] [ DispatcherServlet.java :1205(noHandlerFound)]  No mapping found for HTTP request with URI [/picture/FYZS.jpg] in DispatcherServlet with name 'dispatcherServlet'
+2018-12-24 16:37:07 [ WARN ] [ AbstractHandlerExceptionResolver.java :193(logException)]  Resolved exception caused by Handler execution: org.springframework.web.servlet.NoHandlerFoundException: No handler found for GET /picture/FYZS.jpg
+2018-12-24 18:33:32 [ INFO ] [ StartupInfoLogger.java :50(logStarting)]  Starting WebBootApplication on KGA-A010-0275 with PID 12216 (D:\inyellijIdea\jeeweb\jeeweb-web\jeeweb-admin\target\classes started by huxm11315 in D:\inyellijIdea\jeeweb)
+2018-12-24 18:33:32 [ INFO ] [ SpringApplication.java :659(logStartupProfileInfo)]  No active profile set, falling back to default profiles: default
+2018-12-24 18:33:35 [ WARN ] [ ClassPathMapperScanner.java :166(doScan)]  No MyBatis mapper was found in '[com.baomidou.springboot.mapper*]' package. Please check your configuration.
+2018-12-24 18:33:38 [ INFO ] [ DruidDataSource.java :669(init)]  {dataSource-1} inited
+2018-12-24 18:33:45 [ INFO ] [ PropertySourcedRequestMappingHandlerMapping.java :69(initHandlerMethods)]  Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2018-12-24 18:33:48 [ INFO ] [ StartupInfoLogger.java :59(logStarted)]  Started WebBootApplication in 17.223 seconds (JVM running for 19.075)

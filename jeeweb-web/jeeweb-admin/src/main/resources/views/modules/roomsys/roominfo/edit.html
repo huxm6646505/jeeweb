@@ -1,0 +1,45 @@
+<% layout('/layouts/form.html', {title: @MessageUtils.getMessage('房间',''), formId: 'roominfoForm', bodyClass: 'white-bg', libs: 'bootstrap-fileinput'}){ %>
+<#form:form id="roominfoForm" modelAttribute="data"  method="post" class="form-horizontal">
+	<#form:hidden path="id"/>
+	<table  class="table table-bordered  table-condensed dataTables-example dataTable no-footer">
+		<tbody>
+		<tr>
+			<td  class="width-15 active text-right">
+				<label><font color="red">*</font>房间号:</label>
+			</td>
+			<td class="width-35">
+				<#form:input path="number" htmlEscape="false" class="form-control"  datatype="*"    />
+				<label class="Validform_checktip"></label>
+			</td>
+		</tr>
+		<tr>
+			<td  class="width-15 active text-right">
+				<label><font color="red">*</font>面积:</label>
+			</td>
+			<td class="width-35">
+				<#form:input path="area" htmlEscape="false" class="form-control"  datatype="*"    />
+				<label class="Validform_checktip"></label>
+			</td>
+		</tr>
+		<tr>
+			<td  class="width-15 active text-right">
+				<label><font color="red">*</font>租金价格:</label>
+			</td>
+			<td class="width-35">
+				<#form:input path="rent" htmlEscape="false" class="form-control"  datatype="*"    />
+				<label class="Validform_checktip"></label>
+			</td>
+		</tr>
+		<tr>
+			<td class="active">
+				<label class="pull-right">
+					<font color="red">*</font>所属项目:</label></td>
+			<td class="width-35">
+			<#form:input path="rent" htmlEscape="false" class="form-control"  datatype="*"    />
+			<label class="Validform_checktip"></label>
+			</td>
+
+		</tbody>
+	</table>
+</#form:form>
+<% } %>
